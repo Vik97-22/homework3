@@ -15,7 +15,7 @@ html, body {
     position: fixed;
     left: 0; right: 0;
     top: 0;
-     padding: 10px;
+  
 }
 .title{
     color: #FFD700;
@@ -331,4 +331,5 @@ input[type="email"] {
         0 10px 25px rgba(212, 175, 55, 0.4),
         0 0 30px rgba(255, 215, 0, 0.3);
     border-radius: 25px; 
+
 }
