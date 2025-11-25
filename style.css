@@ -15,7 +15,7 @@ html, body {
     position: fixed;
     left: 0; right: 0;
     top: 0;
-  
+    z-index: 6;
 }
 .title{
     color: #FFD700;
@@ -107,7 +107,8 @@ padding: 15px 20px;
     object-fit: cover;
     margin: 15px;
     transition: all 0.3s ease;
-
+     position: relative;
+    z-index: 4;
 }
 
 .popular img:hover {
@@ -333,3 +334,4 @@ input[type="email"] {
     border-radius: 25px; 
 
 }
+
